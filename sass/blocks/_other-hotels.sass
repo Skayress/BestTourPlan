@@ -1,0 +1,146 @@
+.other-hotels
+  padding-top: 40px
+  padding-bottom: 70px
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    padding-bottom: 65px
+    margin: 0
+  &__cards
+    display: grid
+    grid-template: repeat(2, 500px) / repeat(3, 350px)
+    grid-gap: 30px
+  &__card
+    display: grid
+    position: relative
+    max-width: 350px
+    max-height: 500px
+    &--1
+      grid-column: span 2
+      display: flex
+      max-width: 730px
+  &__offer
+    width: 61px
+    height: 18px
+    position: absolute
+    padding: 4px 9px
+    background-color: $primary
+    color: $light
+    border: none
+    outline: none
+    cursor: pointer
+    border-radius: 0px 4px 4px 0px
+    left: 0
+    top: 26px
+    font-style: normal
+    font-weight: 600
+    font-size: 8px
+    line-height: 10px
+    &--1
+      width: 95px
+      height: 30px
+      padding: 8px 12px
+  &__image
+    width: 350px
+    height: 250px
+    border-radius: 8px 8px 0px 0px
+    object-fit: cover
+    &--1
+      width: 366px
+      height: 500px
+      border-radius: 8px 0px 0px 8px
+  &__booking
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    width: 350px
+    height: 250px
+    background-color: $dark
+    color: $light
+    border: none
+    border-radius: 0px 0px 8px 8px
+    padding: 30px 21px 25px 32px
+    &--1
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      width: 364px
+      height: 500px
+      border-radius: 0px 8px 8px 0px
+      padding: 46px 21px 30px 43px
+  &__name
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+    padding-bottom: 17px
+    margin: 0
+    &--1
+      margin: 0
+      padding-bottom: 26px
+  &__description
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+    margin: 0
+    padding-bottom: 26px
+    overflow-y: auto
+  &__price
+    display: flex
+    flex-direction: column
+  &__button
+    min-width: 120px
+    min-height: 40px
+    font-family: Nunito
+    font-style: normal
+    font-weight: 600
+    font-size: 12px
+    line-height: 16px
+    background-color: $primary
+    color: $light
+    border: none
+    border-radius: 4px
+    cursor: pointer
+    padding: 11px 27px
+  &__icon
+    margin-right: 14px
+.booking
+  &-info
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    padding-bottom: 13px
+    &--1
+      padding-bottom: 15px
+    &__geolocation, &__guests, &__room
+      display: flex
+      align-items: center
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 15px
+      padding-bottom: 11px
+      margin: 0
+.pay-book
+  display: flex
+  align-items: center
+  justify-content: space-between
+.old-price
+  font-style: normal
+  font-weight: normal
+  font-size: 14px
+  line-height: 18px
+  text-decoration-line: line-through
+  padding-bottom: 5px
+  &--1
+    padding-bottom: 5px
+.new-price
+  font-style: normal
+  font-weight: bold
+  font-size: 24px
+  line-height: 30px
